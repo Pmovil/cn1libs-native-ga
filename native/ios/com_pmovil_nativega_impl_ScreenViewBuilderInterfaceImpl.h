@@ -1,9 +1,12 @@
 #import <Foundation/Foundation.h>
+#import "GAIDictionaryBuilder.h"
 
 @interface com_pmovil_nativega_impl_ScreenViewBuilderInterfaceImpl : NSObject {
+@private GAIDictionaryBuilder* builder;
 }
 
--(void)set:(NSString*)param param1:(NSString*)param1;
+-(id)init;
+-(void)set:(NSString*)key value:(NSString*)value;
 -(NSString*)build;
 -(void)setNonInteraction:(BOOL)param;
 -(void)setCustomMetric:(int)param param1:(float)param1;

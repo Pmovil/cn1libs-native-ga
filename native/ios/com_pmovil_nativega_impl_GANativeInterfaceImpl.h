@@ -1,4 +1,5 @@
 #import <Foundation/Foundation.h>
+#import "GAI.h"
 
 @interface com_pmovil_nativega_impl_GANativeInterfaceImpl : NSObject {
 }

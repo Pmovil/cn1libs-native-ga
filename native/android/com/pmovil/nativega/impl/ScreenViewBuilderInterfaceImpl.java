@@ -35,6 +35,7 @@ public class ScreenViewBuilderInterfaceImpl implements HitBuilderImpl {
     public void set(String key, String value) {
         impl.set(key, value);
     }
+    
 
     public void setCustomDimension(int index, String dimension) {
         impl.setCustomDimension(index, dimension);

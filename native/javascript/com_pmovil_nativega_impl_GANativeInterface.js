@@ -2,11 +2,7 @@
 
 var o = {};
 
-    o.setDryRun__boolean = function(param1, callback) {
-        callback.error(new Error("Not implemented yet"));
-    };
-
-    o.isDryRunEnabled_ = function(callback) {
+    o.setLocalDispatchPeriod__int = function(param1, callback) {
         callback.error(new Error("Not implemented yet"));
     };
 
@@ -14,15 +10,19 @@ var o = {};
         callback.error(new Error("Not implemented yet"));
     };
 
+    o.setDryRun__boolean = function(param1, callback) {
+        callback.error(new Error("Not implemented yet"));
+    };
+
     o.dispatchLocalHits_ = function(callback) {
         callback.error(new Error("Not implemented yet"));
     };
 
-    o.setLocalDispatchPeriod__int = function(param1, callback) {
+    o.getAppOptOut_ = function(callback) {
         callback.error(new Error("Not implemented yet"));
     };
 
-    o.getAppOptOut_ = function(callback) {
+    o.isDryRunEnabled_ = function(callback) {
         callback.error(new Error("Not implemented yet"));
     };
 

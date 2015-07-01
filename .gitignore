@@ -3,3 +3,15 @@
 /dist
 /docs
 /lib/CodenameOne_SRC
+/native/ios/GAIEcommerceProductAction.h
+/native/ios/GAILogger.h
+/native/ios/GAIEcommercePromotion.h
+/native/ios/GAITracker.h
+/native/ios/GAIFields.h
+/native/ios/GAIEcommerceProduct.h
+/native/ios/GAIEcommerceFields.h
+/native/ios/GAITrackedViewController.h
+/native/ios/GAI.h
+/native/ios/GAIDictionaryBuilder.h
+/native/ios/libGoogleAnalyticsServices.a
+/TestIOS/

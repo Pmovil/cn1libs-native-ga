@@ -6,7 +6,7 @@ var o = {};
         callback.error(new Error("Not implemented yet"));
     };
 
-    o.build_ = function(callback) {
+    o.setCampaignParamsFromUrl__java_lang_String = function(param1, callback) {
         callback.error(new Error("Not implemented yet"));
     };
 
@@ -14,11 +14,11 @@ var o = {};
         callback.error(new Error("Not implemented yet"));
     };
 
-    o.setCustomMetric__int_float = function(param1, param2, callback) {
+    o.setNewSession_ = function(callback) {
         callback.error(new Error("Not implemented yet"));
     };
 
-    o.setNewSession_ = function(callback) {
+    o.setCustomMetric__int_float = function(param1, param2, callback) {
         callback.error(new Error("Not implemented yet"));
     };
 
@@ -26,7 +26,7 @@ var o = {};
         callback.error(new Error("Not implemented yet"));
     };
 
-    o.setCampaignParamsFromUrl__java_lang_String = function(param1, callback) {
+    o.build_ = function(callback) {
         callback.error(new Error("Not implemented yet"));
     };
 

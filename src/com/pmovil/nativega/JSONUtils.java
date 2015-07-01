@@ -39,7 +39,7 @@ public abstract class JSONUtils {
         int c = map.size();
         for (Map.Entry<String, String> entrySet : map.entrySet()) {
             encoded.append(quote(entrySet.getKey())).append(':');
-            encoded.append(entrySet.getValue());
+            encoded.append(quote(entrySet.getValue()));
             c--;
             if(c  > 0){
                 encoded.append(',');

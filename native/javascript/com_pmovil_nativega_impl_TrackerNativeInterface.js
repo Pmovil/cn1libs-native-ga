@@ -14,7 +14,67 @@ var o = {};
         callback.error(new Error("Not implemented yet"));
     };
 
+    o.setReferrer__java_lang_String = function(param1, callback) {
+        callback.error(new Error("Not implemented yet"));
+    };
+
+    o.setSampleRate__double = function(param1, callback) {
+        callback.error(new Error("Not implemented yet"));
+    };
+
+    o.setScreenColors__java_lang_String = function(param1, callback) {
+        callback.error(new Error("Not implemented yet"));
+    };
+
+    o.setClientId__java_lang_String = function(param1, callback) {
+        callback.error(new Error("Not implemented yet"));
+    };
+
+    o.setHostname__java_lang_String = function(param1, callback) {
+        callback.error(new Error("Not implemented yet"));
+    };
+
+    o.setScreenName__java_lang_String = function(param1, callback) {
+        callback.error(new Error("Not implemented yet"));
+    };
+
+    o.setScreenResolution__int_int = function(param1, param2, callback) {
+        callback.error(new Error("Not implemented yet"));
+    };
+
+    o.setUseSecure__boolean = function(param1, callback) {
+        callback.error(new Error("Not implemented yet"));
+    };
+
     o.setAppInstallerId__java_lang_String = function(param1, callback) {
+        callback.error(new Error("Not implemented yet"));
+    };
+
+    o.setAppName__java_lang_String = function(param1, callback) {
+        callback.error(new Error("Not implemented yet"));
+    };
+
+    o.setAppVersion__java_lang_String = function(param1, callback) {
+        callback.error(new Error("Not implemented yet"));
+    };
+
+    o.enableAdvertisingIdCollection__boolean = function(param1, callback) {
+        callback.error(new Error("Not implemented yet"));
+    };
+
+    o.setViewportSize__java_lang_String = function(param1, callback) {
+        callback.error(new Error("Not implemented yet"));
+    };
+
+    o.setCampaignParamsOnNextHit__java_lang_String = function(param1, callback) {
+        callback.error(new Error("Not implemented yet"));
+    };
+
+    o.enableAutoActivityTracking__boolean = function(param1, callback) {
+        callback.error(new Error("Not implemented yet"));
+    };
+
+    o.enableExceptionReporting__boolean = function(param1, callback) {
         callback.error(new Error("Not implemented yet"));
     };
 
@@ -42,75 +102,15 @@ var o = {};
         callback.error(new Error("Not implemented yet"));
     };
 
-    o.setScreenName__java_lang_String = function(param1, callback) {
-        callback.error(new Error("Not implemented yet"));
-    };
-
-    o.setScreenResolution__int_int = function(param1, param2, callback) {
-        callback.error(new Error("Not implemented yet"));
-    };
-
-    o.setSampleRate__double = function(param1, callback) {
-        callback.error(new Error("Not implemented yet"));
-    };
-
-    o.setScreenColors__java_lang_String = function(param1, callback) {
-        callback.error(new Error("Not implemented yet"));
-    };
-
-    o.setViewportSize__java_lang_String = function(param1, callback) {
-        callback.error(new Error("Not implemented yet"));
-    };
-
-    o.setCampaignParamsOnNextHit__java_lang_String = function(param1, callback) {
-        callback.error(new Error("Not implemented yet"));
-    };
-
-    o.enableExceptionReporting__boolean = function(param1, callback) {
-        callback.error(new Error("Not implemented yet"));
-    };
-
-    o.setClientId__java_lang_String = function(param1, callback) {
-        callback.error(new Error("Not implemented yet"));
-    };
-
-    o.enableAdvertisingIdCollection__boolean = function(param1, callback) {
-        callback.error(new Error("Not implemented yet"));
-    };
-
-    o.setSessionTimeout__long = function(param1, callback) {
-        callback.error(new Error("Not implemented yet"));
-    };
-
-    o.setUseSecure__boolean = function(param1, callback) {
-        callback.error(new Error("Not implemented yet"));
-    };
-
-    o.setAppVersion__java_lang_String = function(param1, callback) {
-        callback.error(new Error("Not implemented yet"));
-    };
-
-    o.setHostname__java_lang_String = function(param1, callback) {
-        callback.error(new Error("Not implemented yet"));
-    };
-
-    o.setReferrer__java_lang_String = function(param1, callback) {
-        callback.error(new Error("Not implemented yet"));
-    };
-
     o.setAppId__java_lang_String = function(param1, callback) {
         callback.error(new Error("Not implemented yet"));
     };
 
-    o.enableAutoActivityTracking__boolean = function(param1, callback) {
-        callback.error(new Error("Not implemented yet"));
-    };
-
-    o.setAppName__java_lang_String = function(param1, callback) {
-        callback.error(new Error("Not implemented yet"));
-    };
-
     o.setLanguage__java_lang_String = function(param1, callback) {
+        callback.error(new Error("Not implemented yet"));
+    };
+
+    o.setSessionTimeout__long = function(param1, callback) {
         callback.error(new Error("Not implemented yet"));
     };
 
