@@ -142,11 +142,21 @@ public class TrackerNativeInterfaceImpl {
         peer.setViewportSize(param);
     }
 
+    /*
+    TODO: reimplement setCampaignParamsOnNextHit for GoogleAnalytics v3.0 and bellow
+    Not compilig for Codename One 3.0
+    
+    /*
     public void setCampaignParamsOnNextHit(String param) {
         
         peer.setCampaignParamsOnNextHit(Uri.parse(param));
     }
+    */
 
+    public void setCampaignParamsOnNextHit(String param) {
+    }
+    
+    
     public void setHostname(String param) {
         peer.setHostname(param);
     }
