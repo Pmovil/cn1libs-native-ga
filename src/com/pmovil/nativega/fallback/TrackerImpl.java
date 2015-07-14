@@ -36,6 +36,7 @@ public class TrackerImpl implements TrackerNativeInterface {
     private String trackingId = null;
     private String referrer = null;
     private String screenName = null;
+    private String appName = null;
     
     public void initialize(String trackingId) {
         this.trackingId = trackingId;
@@ -67,6 +68,7 @@ public class TrackerImpl implements TrackerNativeInterface {
     }
 
     public void setAppName(String appName) {
+        this.appName = appName;
     }
 
     public void setAppVersion(String appVersion) {
@@ -125,7 +127,7 @@ public class TrackerImpl implements TrackerNativeInterface {
     public void send(String values) {
         Log.p("Fallbacking to AnalyticsService");
         AnalyticsService.setAppsMode(true);
-        AnalyticsService.init(trackingId, null);
+        AnalyticsService.init(trackingId, appName);
         AnalyticsService.visit(screenName, referrer);
     }
 
